@@ -11,7 +11,7 @@ ms.date: 06/08/2017
 
 # Type Statement
 
-Used at [module level](vbe-glossary.md) to define a user-defined[data type](vbe-glossary.md) containing one or more elements.
+Used at [module level](vbe-glossary.md) to define a user-defined [data type](vbe-glossary.md) containing one or more elements.
 
  **Syntax**
 
@@ -26,7 +26,7 @@ The  **Type** statement syntax has these parts:
 
 |**Part**|**Description**|
 |:-----|:-----|
-|**Public**|Optional. Used to declare [user-defined types](vbe-glossary.md) that are available to all[procedures](vbe-glossary.md) in all[modules](vbe-glossary.md) in all[projects](vbe-glossary.md).|
+|**Public**|Optional. Used to declare [user-defined types](vbe-glossary.md) that are available to all [procedures](vbe-glossary.md) in all [modules](vbe-glossary.md) in all [projects](vbe-glossary.md).|
 |**Private**|Optional. Used to declare user-defined types that are available only within the module where the [declaration](vbe-glossary.md) is made.|
 | _varname_|Required. Name of the user-defined type; follows standard [variable](vbe-glossary.md) naming conventions.|
 | _elementname_|Required. Name of an element of the user-defined type. Element names also follow standard variable naming conventions, except that [keyword](vbe-glossary.md)s can be used.|
@@ -35,9 +35,9 @@ The  **Type** statement syntax has these parts:
 
 **Remarks**
 
-The **Type** statement can be used only at module level. Once you have declared a user-defined type using the **Type** statement, you can declare a variable of that type anywhere within the[scope](vbe-glossary.md) of the declaration. Use **Dim**, **Private**, **Public**, **ReDim**, or **Static** to declare a variable of a user-defined type.
-In [standard modules](vbe-glossary.md) and[class modules](vbe-glossary.md), user-defined types are public by default. This visibility can be changed using the  **Private** keyword.
-[Line numbers](vbe-glossary.md) and[line labels](vbe-glossary.md) aren't allowed in **Type...End Type** blocks.
+The **Type** statement can be used only at module level. Once you have declared a user-defined type using the **Type** statement, you can declare a variable of that type anywhere within the [scope](vbe-glossary.md) of the declaration. Use **Dim**, **Private**, **Public**, **ReDim**, or **Static** to declare a variable of a user-defined type.
+In [standard modules](vbe-glossary.md) and [class modules](vbe-glossary.md), user-defined types are public by default. This visibility can be changed using the  **Private** keyword.
+[Line numbers](vbe-glossary.md) and [line labels](vbe-glossary.md) aren't allowed in **Type...End Type** blocks.
 User-defined types are often used with data records, which frequently consist of a number of related elements of different data types.
 The following example shows the use of fixed-size arrays in a user-defined type:
 
