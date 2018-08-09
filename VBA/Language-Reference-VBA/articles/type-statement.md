@@ -11,7 +11,7 @@ ms.date: 06/08/2017
 
 # Type Statement
 
-Used at [module level](vbe-glossary.md) to define a user-defined[data type](vbe-glossary.md) containing one or more elements.
+Used at [module level](vbe-glossary.md) to define a user-defined [data type](vbe-glossary.md) containing one or more elements.
 
  **Syntax**
 
