@@ -11,7 +11,7 @@ ms.date: 06/08/2017
 
 # Type Statement
 
-Used at [module level](vbe-glossary.md) to define a user-defined[data type](vbe-glossary.md) containing one or more elements.
+Used at [module level](vbe-glossary.md) to define a user-defined [data type](vbe-glossary.md) containing one or more elements.
 
  **Syntax**
 
@@ -26,7 +26,7 @@ The  **Type** statement syntax has these parts:
 
 |**Part**|**Description**|
 |:-----|:-----|
-|**Public**|Optional. Used to declare [user-defined types](vbe-glossary.md) that are available to all[procedures](vbe-glossary.md) in all[modules](vbe-glossary.md) in all[projects](vbe-glossary.md).|
+|**Public**|Optional. Used to declare [user-defined types](vbe-glossary.md) that are available to all [procedures](vbe-glossary.md) in all [modules](vbe-glossary.md) in all [projects](vbe-glossary.md).|
 |**Private**|Optional. Used to declare user-defined types that are available only within the module where the [declaration](vbe-glossary.md) is made.|
 | _varname_|Required. Name of the user-defined type; follows standard [variable](vbe-glossary.md) naming conventions.|
 | _elementname_|Required. Name of an element of the user-defined type. Element names also follow standard variable naming conventions, except that [keyword](vbe-glossary.md)s can be used.|
